@@ -24,7 +24,7 @@ A simple **Django-based Hospital Management System** with features like appointm
    ```
 5. Access the app at [http://localhost:8000](http://localhost:8000). 
 
-# seeding dummy data
+## seeding dummy data
 ```bash
 python manage.py loaddata seed/categories.json 
 python manage.py loaddata seed/specialities.json
