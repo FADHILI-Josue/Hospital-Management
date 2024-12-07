@@ -2,10 +2,6 @@
 
 A simple **Django-based Hospital Management System** with features like appointment scheduling, user registration, blogs, and more.
 
-## Features  
-- **Front-End**: HTML, CSS, JavaScript, Bootstrap, jQuery  
-- **Back-End**: Python, Django, SQLite
-
 ## Setup  
 1. Clone the repository:  
    ```bash
@@ -20,12 +16,10 @@ A simple **Django-based Hospital Management System** with features like appointm
    ```bash
    pip install -r requirements.txt  
    ```
-4. Apply migrations:  
+4. Apply migrations and run server:  
    ```bash
+   cd app
    python manage.py migrate  
-   ```
-5. Run the server:  
-   ```bash
    python manage.py runserver  
    ```
-6. Access the app at [http://localhost:8000](http://localhost:8000). 
+5. Access the app at [http://localhost:8000](http://localhost:8000). 
